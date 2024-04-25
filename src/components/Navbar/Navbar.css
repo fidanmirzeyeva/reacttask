@@ -1,0 +1,41 @@
+.navbar{
+    background-color: #27CFFE;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    h3{
+        font-size: 25px;
+        cursor: pointer;
+    }
+    p{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       
+    }
+}
+.navbar_list{
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.navbar_list li:hover{
+    color: gray;
+}
+.navbar_icon{
+    display: none   ;
+}
+@media only screen and (max-width: 991px) {
+    .list{
+        display: none;
+    }
+    .navbar_icon{
+        display: flex;
+    }
+}
